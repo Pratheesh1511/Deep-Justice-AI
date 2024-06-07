@@ -43,7 +43,7 @@ A Flask web application that uses AI models to process legal case descriptions a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Pratheesh1511/deep-justice-ai.git
+   git clone https://github.com/Pratheesh1511/Deep-Justice-AI
    cd deep-justice-ai
 2. Create and activate a virtual environment:
     python -m venv venv
