@@ -1,6 +1,7 @@
 import os
 from flask import Flask, render_template, request, redirect, url_for
 
+import phoenix as px
 import llama_index.core
 from llama_index.llms.openai import OpenAI
 from llama_index.embeddings.openai import OpenAIEmbedding
@@ -17,6 +18,8 @@ from llama_index.core.postprocessor import LLMRerank
 from llama_index.core.response_synthesizers import TreeSummarize
 
 
+px.launch_app()
+llama_index.core.set_global_handler("arize_phoenix")
 # Initialize the LLM and embedding models
 Settings.llm = OpenAI(model="gpt-3.5-turbo")
 Settings.embed_model = OpenAIEmbedding(model="text-embedding-3-small")

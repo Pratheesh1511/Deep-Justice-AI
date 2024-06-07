@@ -1,0 +1,8 @@
+!pip install 'llama-index-callbacks-arize-phoenix>0.1.3'
+!pip install llama-index-embeddings-openai
+!pip install llama-index-postprocessor-cohere-rerank
+!pip install llama-index-llms-openai
+!pip install 'arize-phoenix[evals]'
+!pip install llama_index
+!pip install pyvis
+!pip install flask
